@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewPrep", "InterviewPrep\InterviewPrep.csproj", "{12C7E431-C73A-4CA2-9D18-981C511B35F2}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewPrep", "InterviewPrep\InterviewPrep.csproj", "{12C7E431-C73A-4CA2-9D18-981C511B35F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewPrep.ConsoleApp", "InterviewPrep.ConsoleApp\InterviewPrep.ConsoleApp.csproj", "{5CA0C33B-5B93-465F-8C17-FAA0E36F4998}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,12 @@ Global
 		{12C7E431-C73A-4CA2-9D18-981C511B35F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12C7E431-C73A-4CA2-9D18-981C511B35F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12C7E431-C73A-4CA2-9D18-981C511B35F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA0C33B-5B93-465F-8C17-FAA0E36F4998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA0C33B-5B93-465F-8C17-FAA0E36F4998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA0C33B-5B93-465F-8C17-FAA0E36F4998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA0C33B-5B93-465F-8C17-FAA0E36F4998}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

@@ -1,3 +1,4 @@
+using InterviewPrep.Algorithms;
 using InterviewPrep.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);

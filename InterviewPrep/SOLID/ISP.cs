@@ -15,17 +15,17 @@
     // Adapter
     public class DocumentViewerAdapter : IDocumentViewer
     {
-        private readonly IDocumentProcessor documentProcessor;
+        private readonly IDocumentProcessor _documentProcessor;
 
         public DocumentViewerAdapter(IDocumentProcessor documentProcessor)
         {
-            this.documentProcessor = documentProcessor;
+            this._documentProcessor = documentProcessor;
         }
 
         public void ViewDocument()
         {
             // Additional logic if needed
-            documentProcessor.ProcessDocument();
+            _documentProcessor.ProcessDocument();
         }
     }
 }
